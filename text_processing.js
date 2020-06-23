@@ -61,11 +61,6 @@ function wordFreq(string) {
   return items.slice(0, 10);
 }
 
-topWords.forEach((element) => {
-  console.log(element);
-  // LookUp(element);
-});
-
 async function LookUp(text) {
   const APIkey =
     "dict.1.1.20170610T055246Z.0f11bdc42e7b693a.eefbde961e10106a4efa7d852287caa49ecc68cf";
